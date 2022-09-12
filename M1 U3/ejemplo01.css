@@ -1,0 +1,38 @@
+p{
+    color: blue;
+    font-family: candara;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+h2{
+    color: red;
+    background-color: yellow;
+    text-align: center;
+
+}
+
+h1{
+    color: green;
+    font-style: italic;
+
+}
+.caja{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    box-shadow:-93px 48px 154px 0px rgba(0,0,0,0.75);
+    border-radius: 37px 161px 62px 62px;
+    background: #158cba;
+    border: 32px solid #d958e1;
+ }
+ .destacado{
+    color: red;
+    font-style: italic;
+ }
+
+ #caja2{
+    width: 500px;
+    height: 200px;
+    background: orange;
+ }

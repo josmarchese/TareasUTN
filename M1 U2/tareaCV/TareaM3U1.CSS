@@ -1,0 +1,60 @@
+h1{
+        font-size: 50px;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+}
+
+img {
+box-shadow: 121px 18px 102px 15px rgba(79,178,232,0.44); 
+height: 300px;
+}
+
+.caja{
+    border: 7px solid #32b7bf;
+    display: inline-flex;
+}
+
+body{
+    text-align: center;
+    list-style-position: inside;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+li{
+    text-align: center;
+}
+
+.contacto{
+    background-color: blue;
+ color: aqua;
+ display: inline-flex;
+
+}
+
+
+#contenedorinicial{
+    background-color: rgb(225, 219, 191);
+	display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: space-evenly;
+
+
+}
+
+#name{
+    font-size: x-large;
+    width: 100%;
+    height: auto;
+    color:rgb(8, 1, 14);
+    margin: auto;
+}
+
+#imagen{
+width: 100%;
+height: auto;
+color: blueviolet;
+
+}
