@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea M2U1</title>
+    <link rel="stylesheet" href="PRUEBA.CSS">
+    <style id="fondo">
+        body { background-color: #FF0000; }
+      </style>
+</head>
+<body>
+    <h1>3 Cuadrados</h1>
+    <button class = "verde"><br>
+    <button class = "rosa"> <br>
+    <button class = "violeta"><br>
+
+<script>
+const verde = document.getElementsByClassName ('verde')[0];
+const rosa = document.getElementsByClassName ('rosa')[0];
+const violeta = document.getElementsByClassName ('violeta')[0];
+
+
+verde.addEventListener('click', function(e) { 
+    e.currentTarget.classList.toggle('activo');
+}
+)
+
+rosa.addEventListener('click', function(e) { 
+    e.currentTarget.classList.toggle('activo');
+}
+)
+
+violeta.addEventListener('click', function(e) { 
+    e.currentTarget.classList.toggle('activo');
+}
+)
+
+</script>
+
+</body>
+</html>

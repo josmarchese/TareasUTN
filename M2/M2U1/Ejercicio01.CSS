@@ -1,0 +1,36 @@
+.verde{
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    background-color: aquamarine;
+}
+
+.rosa{
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    background-color: rgb(211, 57, 209);
+}
+
+.violeta{
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    background-color: rgb(119, 106, 195);
+}
+
+.verde.activo {
+    background-color: blue;
+}
+
+.violeta.activo {
+    background-color: rgb(41, 255, 112);
+}
+
+.rosa.activo {
+    background-color: rgb(231, 241, 139);
+}
+
+.fondo {
+    background-color: brown;
+}
